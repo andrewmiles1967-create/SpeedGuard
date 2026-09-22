@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_horizontal" android:padding="24dp" android:background="#09090B">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SPEEDGUARD" android:textColor="#FF6321" android:textStyle="bold" android:textSize="22sp" android:layout_marginTop="28dp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ROAD LIMIT" android:textColor="#A1A1AA" android:textSize="14sp" android:layout_marginTop="38dp" />
+    <TextView android:id="@+id/limit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="88sp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MPH" android:textColor="#A1A1AA" android:textSize="16sp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="YOUR SPEED" android:textColor="#A1A1AA" android:textSize="14sp" android:layout_marginTop="34dp" />
+    <TextView android:id="@+id/speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="64sp" />
+    <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="READY" android:textColor="#A1A1AA" android:textStyle="bold" android:textSize="15sp" android:layout_marginTop="28dp" />
+    <Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="1" />
+    <Button android:id="@+id/startStop" android:layout_width="match_parent" android:layout_height="64dp" android:text="START DRIVE" android:textStyle="bold" android:textSize="18sp" android:layout_marginBottom="24dp" />
+</LinearLayout>
